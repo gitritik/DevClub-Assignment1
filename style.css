@@ -1,0 +1,106 @@
+body  {
+    background-color: #eeeab9;
+   
+    margin: 0px;
+}
+h1{
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+    background-image: linear-gradient(180deg, white, #193b75);
+}
+#healthtop{
+  background-color: #d4f776;
+  font-size: 200%;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #103fd8;
+
+}
+.map>iframe{
+    width: 100%;
+}
+.map{
+    width: 30%;
+    background-color: aquamarine;
+    padding: 1% ;
+    margin: 5%;
+    border: rgb(202, 199, 6);
+}
+.hname{
+    background-color: beige;
+}   
+
+marquee{
+    font-weight: bolder;
+    color: #ff2222;
+    
+}
+.precautions {
+    
+  position: relative;
+  width: 33%;
+  float: left;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 200px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 200%;
+}
+#prechead{
+  background-color: #eea755;
+  font-size: 200%;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #10d810;
+}
+.precautions:hover .image {
+  opacity: 0.3;
+}
+
+.precautions:hover .middle {
+  opacity: 1;
+}
+#yttext{
+  background-color: azure;
+  font-size: 200%;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #df1dc5;
+}
+
+#ytvideo{
+  text-align: center;
+  height: 1000%;
+}
+.contact{
+  background-color: rgb(169, 238, 174);
+}
+.cont{
+  text-align: center;
+  font-size: 100%;
+  color: #ff2222;
+}
+#name{
+  float: left;
+}
