@@ -11,6 +11,26 @@ h1{
     font-size: 200%;
     background-image: linear-gradient(180deg, white, #193b75);
 }
+#j1:hover{
+  background-color: #103fd8;
+  border-radius: 2px;
+
+}
+#j2:hover{
+  background-color: #103fd8;
+  border-radius: 2px;
+
+}
+#j3:hover{
+  background-color: #103fd8;
+  border-radius: 2px;
+
+}
+#j4:hover{
+  background-color: #103fd8;
+  border-radius: 2px;
+
+}
 #healthtop{
   background-color: #d4f776;
   font-size: 200%;
